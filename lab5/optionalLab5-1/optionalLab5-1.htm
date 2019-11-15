@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Optional Lab 5-1</title>
+
+<script type="text/javascript">
+<!--
+
+/********************************************************************
+ You will be creating a switch statement from complex, multiple if
+ statements
+********************************************************************/
+function toomanyifstatements(){
+	OptionsSelect = document.MyForm.cities.value;
+switch(OptionsSelect){
+case "1":
+alet("Albany")
+break
+
+case "1":
+alet("Boston")
+break
+
+case "1":
+alet("Chicago")
+break
+
+case "1":
+alet("Denver")
+break
+
+case "1":
+alet("Elmsville")
+break
+
+case "1":
+alet("Franklin")
+break
+
+case "1":
+alet("anaheim")
+break
+
+case "1":
+alet("Hartland")
+break
+
+case "1":
+alet("Iona")
+break
+
+case "1":
+alet("Jacksonville")
+break
+
+default:
+alert("Please Select an option")
+}}
+
+//-->
+</script>
+</head>
+<body>
+<h3>CIW JavaScript Specialist</h3>
+<hr />
+<form name="MyForm">
+<select name="cities">
+    <option value="0">Select A City</option>
+    <option value="1">Albany</option>
+    <option value="2">Boston</option>
+    <option value="3">Chicago</option>
+    <option value="4">Denver</option>
+    <option value="5">ElmsVille</option>
+    <option value="6">Franklin</option>
+    <option value="7">Anaheim</option>
+    <option value="8">Hartland</option>
+    <option value="9">Iona</option>
+    <option value="10">Jacksonville</option>
+</select>
+<br />
+<p>
+<input type="button" name="buttonClick" value="Select City" onclick="toomanyifstatements();" />
+</p>
+</form>
+</body>
+</html>
